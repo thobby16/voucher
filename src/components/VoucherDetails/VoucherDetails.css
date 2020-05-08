@@ -1,0 +1,23 @@
+.voucher-form {
+    font-size: 1.8rem;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    border: 0.05rem solid black;
+    padding: 2rem;
+  }
+  
+.VoucherDetails{
+    border-collapse: collapse;
+    width: 100%;
+}
+.VoucherDetails-th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #002e5b;
+  color: white;
+}
+.VoucherDetails-th ,.VoucherDetails-td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}

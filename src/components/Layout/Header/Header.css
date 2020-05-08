@@ -1,0 +1,65 @@
+.header {
+  height: 7rem;
+  background-color: var(--main-color);
+  box-shadow: 0 0.8rem 0.7rem -0.7rem var(--main-color);
+}
+
+.nav {
+  height: 7rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right {
+  height: 7rem;
+  width: 40%;
+}
+
+.logo-box {
+  height: 7rem;
+  width: 13%;
+  background-color: var(--color-white);
+}
+
+.logo {
+  height: 7rem;
+}
+
+.nav-right-list {
+  height: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-right-list-item {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+
+.nav-right-list-item:first-child {
+  margin-right: 3rem;
+  position: relative;
+}
+
+.username {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.notif-number {
+  display: inline-block;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  background-color: var(--color-danger);
+  font-size: 1rem;
+  border-radius: 5rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

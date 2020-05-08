@@ -1,0 +1,28 @@
+:root {
+  --main-color: #002e5b;
+  --main-color-light: #96cbff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-danger: #fa5757;
+}
+
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
